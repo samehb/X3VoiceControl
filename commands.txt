@@ -1,0 +1,82 @@
+Those are the voice commands for X3 Terran Conflict and X3 Albion Prelude. Alternative commands are available on the same line. This means that load and load progress do the same action, for example.
+
+General:
+ok, yes, proceed
+load, load progress
+save, save progress
+pause
+show, show controls, show menu
+hide, hide controls, hide menu, abort
+
+Flight Controls:
+head up
+head down
+head right
+head left
+steer up
+steer down
+steer right
+steer left
+slow up
+slow down
+slow right
+slow left
+roll right
+roll left
+lean right
+lean left
+reset, reset controls
+full speed, full speed ahead
+all stop, full stop
+full reverse, reverse
+match speed, match target speed
+engage, auto pilot, follow, follow ship, shadow, shadow ship
+dock, dock station
+eject, abandon, abandon ship
+
+Weapons:
+fire
+random fire, cursor fire
+cease fire, hold fire, stop fire
+arm missle
+fire missle
+arm one
+arm two
+arm three
+arm four
+
+Targetting:
+track target
+target enemy, enemy
+next object
+previous object
+next enemy
+previous enemy
+
+Information:
+information, show information, info, show info
+scan, scan target, analyze, analyze target
+sector, show sector, show sector map, sector map
+full, show full, show full map, full map, galaxy, show galaxy, show galaxy map, galaxy map
+
+Commands and Management:
+attack, wing attack, wing attack target, attack target
+cover, wing cover, wing cover me, cover me
+drones attack, drones attack target
+drones cover, drones cover me
+
+Ships and Stations:
+comms, hail, hail ship, hail target
+trade
+
+Upgrades:
+time warp, warp
+zoom in
+zoom out
+
+
+
+
+
+
+
