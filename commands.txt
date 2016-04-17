@@ -47,7 +47,7 @@ arm four
 
 Targetting:
 track target
-target enemy, enemy
+target enemy, enemy, target nearest enemy, nearest enemy
 next object
 previous object
 next enemy

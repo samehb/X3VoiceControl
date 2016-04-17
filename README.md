@@ -33,6 +33,35 @@ The source code for those scripts is also available in case you want to compile 
 5. I asked you to move the compiled exe scripts to "C:\Program Files (x86)\WSRMacros" because I could not use environmental variables within the WSRMacros. So, instead of asking you to edit the "x3.wsrmac" file and add a path maunually, I settled for "C:\Program Files (x86)\WSRMacros" as a known static path. In case you have your operating system installed on a different partition than C, you will have to open "x3.wsrmac" with Notepad (or any text editing software) and change C into the system partition letter.
 6. If for any reasons Speech Recognition stops recognizing your commands, click the Mic icon on the speech recognition interface to turn it off (gray icon) then go and sign "x3.wsrmac" again and click the Mic icon to enable and use the macro. If that does not help, restart your PC.
 
+
+## Custom Commands
+
+You can easily add your custom voice commands to the macro. Here is what you need to do:
+
+1. Navigate to your "Speech Macros" folder and right click "x3.wsrmac" then open it with Notepad (or any text editing software). The voice commands are categorized into General, Flight Controls, Weapons, Targetting, Information, Commands and Management, Ships and Stations, and Upgrades just like the game. Find the category you want to modify by searching or scrolling over the text. Under each category you will find its voice commands. A voice command should look like this:
+
+```
+<command>
+   <listenFor>match ?target speed</listenFor>
+   <sendKeys>+f</sendKeys>
+</command>
+```
+
+What you should care about is the <listenFor> block (the text between <listenFor> and </listenFor>). The macro instructs the Speech Recognition software to listen for the text within that block. While <sendKeys> explains how to handle that voice command which in this case sends the SHIFT+F keys to your game which is the key combo responsible for matching target speed. Like I said, you are interested only in the text between the <listenFor> block. You can add any text you want in there replacing "match ?target speed" or you can add a new line with a new command so it looks like this:
+
+```
+<command>
+   <listenFor>match ?target speed</listenFor>
+   <listenFor>tail target</listenFor>
+   <sendKeys>+f</sendKeys>
+</command>
+```
+
+In that manner, "tail target" will also be interpreted into matching the target speed. You probably noticed the "?" in the first voice command. This means that this word is optional. So, you can say "match speed" or "match target speed" and they will do the same action. On the other hand, you can use the wildcard (asterisk) symbol (*) to match any word(s) you want. So, if I'm to change "match ?target speed" into "match * speed", I can go ahead and say "match ship speed" or "match object speed" and they will do the same action.
+
+When you are done editing the macro, save and close the file. Then turn off Speech Recognition and make sure the Mic icon is gray (and not blue) then right click the "x3.wsrmac" file and click "Sign Speech Macros" then click Yes and Ok. After that, enable speech recognition and you are set. If that does not work for you simply restart your PC and do step number 15 (on the Usage). Note that if you made any mistakes in the macro, you will be notified when you try to sign it. So, go back and correct the mistakes then resign.
+
+
 ## Copyright
 License: CC BY-NC-SA 4.0 (Attribution-NonCommercial-ShareAlike 4.0 International)
 
