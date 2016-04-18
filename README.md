@@ -33,9 +33,7 @@ X3VoiceControl is a WSRMacro (Windows Speech Recognition Macro) that allows full
 
 ## Custom Commands
 
-You can easily add your custom voice commands to the macro. Here is what you need to do:
-
-1. Navigate to your "Speech Macros" folder and right click "x3.wsrmac" then open it with Notepad (or any text editing software). The voice commands are categorized into General, Flight Controls, Weapons, Targetting, Information, Commands and Management, Ships and Stations, and Upgrades just like the game. Find the category you want to modify by searching or scrolling over the text. Under each category you will find its voice commands. A voice command should look like this:
+You can easily add your custom voice commands to the macro. Here is what you need to do. Navigate to your "Speech Macros" folder and right click "x3.wsrmac" then open it with Notepad (or any text editing software). The voice commands are categorized into General, Flight Controls, Weapons, Targetting, Information, Commands and Management, Ships and Stations, and Upgrades just like the game. Find the category you want to modify by searching or scrolling over the text. Under each category you will find its voice commands. A voice command should look like this:
 
 ```
 <command>
