@@ -6,10 +6,7 @@ X3VoiceControl is a WSRMacro (Windows Speech Recognition Macro) that allows full
 
 1. Download this [file](https://github.com/samehb/X3VoiceControl/archive/master.zip) and extract it into any folder.
 2. Download [Windows Speech Recognition Macros](https://www.microsoft.com/en-eg/download/details.aspx?id=13045) and execute WSRMacros.msi then install it.
-3. You will need some external compiled scripts for X3VoiceControl to fully function. Those are actually compiled AutoHotKey scripts. Copy or move the exe files inside the "Binaries" folder from the extracted folder from step 1 into the "C:\Program Files (x86)\WSRMacros" folder.
-
-The source code for those scripts is also available in case you want to compile them yourself. Skip to step 5 if you do not want to compile the scripts.
-
+3. You will need some external compiled scripts for X3VoiceControl to fully function. Those are actually compiled AutoHotKey scripts. Copy or move the exe files inside the "Binaries" folder from the extracted folder from step 1 into the "C:\Program Files (x86)\WSRMacros" folder. The source code for those scripts is also available in case you want to compile them yourself. Skip to step 5 if you do not want to compile the scripts.
 4. In order to compile the scripts you need to download [AutoHotKey](https://autohotkey.com/download/ahk-install.exe) and install it. After that, navigate to the "Source" folder within the extracted folder from step 1 then right click each of the scripts (ahk files) and click "Compile Script." Repeat for all scripts and copy or move the compiled (exe) files into the "C:\Program Files (x86)\WSRMacros" folder.
 5. Navigate to your "Documents" folder and find the new "Speech Macros" folder then open it. You can also navigate to "%userprofile%\Documents\Speech Macros" (without the quotes) from your explorer address bar to reach the folder. Either way is fine.
 6. Copy or move the "x3.wsrmac" file from the extracted folder from step 1 into the "Speech Macros" folder (from step 5).
